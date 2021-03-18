@@ -1,6 +1,7 @@
 #+TITLE: Caller
 
 Call SuSy Bridge from Golang.
+Check other tutorials in the [[https://docs.gravity.tech/susy/susy-api-interaction][Gravity documentation]].
 * Configure parameters in [[./main.go][main.go]]
 #+begin_src go
 nodeUrl := "https://bsc-dataseed.binance.org"
@@ -20,3 +21,13 @@ go run main.go
 #+end_src
 * Check explorer
 BSC - https://bscscan.com/token/0xc4b6F32B84657E9f6a73fE119f0967bE5bA8CF05
+* Contract addresses
+** USDN BSC
+ - token: 0xc4b6f32b84657e9f6a73fe119f0967be5ba8cf05
+ - ib-port: 0x8c0e11a6E692d02f71598AB5050083ED691Eb760
+** gwaNSBT BSC
+ - token: 0xaDb688CC2D5A729d7e5ddEcDA8B63ED118F41eA4
+ - ib-port: 0xf427525Eb648d14c1Da28E530e9fe7ab9832c411
+** NSBT Legacy BSC
+ - token: 0x496d451dDAB0F79346f773CbC2eb7Aee58446019
+ - ib-port: 0x59622815BADB181a2c37052136a9480C6A4a4eA6

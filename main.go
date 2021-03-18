@@ -23,12 +23,14 @@ func main() {
 
 	senderPrivKeyStr := "0x2d523a2573c8f40eaba9e0cf1d7ed1d972872522ef1f57c47be23e0da00c376b"
 
-	receiverAddress := "3PG4DtkmcZjPGRpXujbD44ZKydo1D9Y6r2N"
-	amount := int64(1)
-	amountBig := big.NewInt(amount)
-
 	tokenAddress := "0xc4b6F32B84657E9f6a73fE119f0967bE5bA8CF05"
 	ibportAddress := "0x8c0e11a6E692d02f71598AB5050083ED691Eb760"
+
+	receiverAddress := "3PG4DtkmcZjPGRpXujbD44ZKydo1D9Y6r2N"
+	amount := int64(1)
+
+
+	amountBig := big.NewInt(amount)
 
 	senderPrivKey, err := hexutil.Decode(senderPrivKeyStr)
 	if err != nil {
